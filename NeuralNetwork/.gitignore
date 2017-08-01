@@ -1,0 +1,3 @@
+mnist_*
+/__pychache__/
+*.pyc
