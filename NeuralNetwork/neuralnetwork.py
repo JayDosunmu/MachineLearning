@@ -4,15 +4,7 @@ import scipy.special as sci
 
 class NeuralNetwork:
     def __init__(self, num_inodes, num_hnodes, num_onodes, learning_rate):
-        self.lr = learning_rate
-
-        self.inodes = num_inodes
-        self.hnodes = num_hnodes
-        self.onodes = num_onodes
-
-        self.wih_vals = np.random.normal(
-            0.0,
-            pow(self.inodes, -0.5),
+        bg -0.5),
             (self.hnodes, self.inodes)
         )
         self.who_vals = np.random.normal(
